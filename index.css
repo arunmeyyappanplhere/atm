@@ -1,0 +1,193 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: white;
+    
+}
+.logo-section{
+    background-color: rgb(208, 255, 0);
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+
+.logo-section h1{
+    font-size: 1rem;
+    font-weight:bolder;
+}
+
+.logo-section h1{
+    letter-spacing: 2px;
+}
+
+.content{
+    text-align: center;
+    height: 100%;
+}
+
+.content h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.content h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.atm-card-insert-img{
+    width:35%;
+    display: block;
+    margin-left: 30%;
+}
+
+button{
+    border: 3px solid rgb(0, 102, 255);
+    background-color: transparent;
+    width: 10%;
+    height: 30px;
+    color: rgb(0, 102, 255);
+    border-radius: 4px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-left: 75%;
+    transition: 0.2s;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    box-shadow: 1px 1px 3px black;
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+.numbers{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers table{
+    width: 400px;
+    height: 330px;
+}
+
+.numbers table tr td{
+    width: 70px;
+    height: 30px;
+    font-family: inherit;
+    text-align: center;
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 12px;
+    color: black;
+    transition: 0.2s;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.numbers #star-pin{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.numbers table tr td:hover{
+    box-shadow: 1px 1px 8px black; 
+}
+
+#no-pin, #not-av-h3, #no-msg{
+    color:rgb(255, 59, 48);
+    font-size: 1.5rem;
+    height: 10px;
+    margin-top: 10px;
+}
+
+#amount{
+    font-size: 1.5rem;
+    height: 10px;
+}
+
+#star-pin{
+    font-size: 1.2rem;
+}
+
+.buttons{
+    display: flex;
+    height: 415px;
+    position: relative;
+}
+
+.btn-left, .btn-right{
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn-right .rt-btns{
+    margin-top: 75px;
+}
+
+.btn-left .lt-btns{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 250px;
+}
+
+.btn-left .lt-btns button{
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.btn-right .rt-btns button{
+    margin-left: 50%;
+    margin-bottom: 35px;
+}
+
+.buttons .option-btn{
+    padding: 20px 40px 20px 40px;
+    width: 250px ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .logo-section a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.btm-nav-btns{
+    margin-left: 800px;
+}
+
+.btm-nav-btns button{
+    width: 180px;
+    height: 60px;
+    margin-bottom: 40px;
+}

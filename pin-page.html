@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">    
+        <div class="logo-section">
+            <a href="index.html"><img src="images/vv-logo.jpg" alt="" class="logo">
+            <h1>श्रीVV ATM</h1></a>
+        </div>
+        <div class="content">
+            <h2>PLEASE ENTER YOUR PIN</h2>
+        </div>
+        <div class="numbers">
+            <h1 id="star-pin"> </h1>
+            <table>
+                <!--DISPLAY ****-->
+                <tr>
+                    <td onclick="starIt(1)">1</td>
+                    <td onclick="starIt(2)">2</td>
+                    <td onclick="starIt(3)">3</td>
+                </tr>
+                <tr>
+                    <td onclick="starIt(4)">4</td>
+                    <td onclick="starIt(5)">5</td>
+                    <td onclick="starIt(6)">6</td>
+                </tr>
+                <tr>
+                    <td onclick="starIt(7)">7</td>
+                    <td onclick="starIt(8)">8</td>
+                    <td onclick="starIt(9)">9</td>
+                </tr>
+                <tr>
+                    <td onclick="starIt(0)">0</td>
+                    <td colspan="2" onclick="clearStars()">Clear</td>
+                </tr>
+            </table>
+            <h1 id="no-pin"></h1>
+        </div>
+        <button onclick="checkPin()">NEXT</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
